@@ -21,7 +21,7 @@ To run both:
 npm run lint
 ```
 
-## Code prettying
+## Code formatting
 ```
 npm run pretty
 ```
