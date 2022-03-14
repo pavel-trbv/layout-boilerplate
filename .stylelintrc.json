@@ -1,4 +1,7 @@
 {
+  "ignoreFiles": [
+    "**/vendor/**/*.{css,scss}"
+  ],
   "extends": [
     "./stylelint.config.rational-order.js",
     "stylelint-config-standard-scss"
