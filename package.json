@@ -8,7 +8,7 @@
     "lint:style": "stylelint '**/*.scss'",
     "lint:html": "node-w3c-validator -i **/*.html -f lint -evH",
     "lint": "npm run lint:style & npm run lint:html",
-    "pretty": "prettier --write '**/*.html' && stylelint --fix '**/*.scss'",
+    "pretty": "prettier --write '**/*.{html,js}' && stylelint --fix '**/*.scss'",
     "start": "concurrently \"npm:watch\" \"npm:serve\""
   },
   "author": "Pavel Torbeev",
